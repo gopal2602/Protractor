@@ -1,0 +1,42 @@
+{
+  "searchPage": {
+    "googleLogo": ["xpath","//*[@alt='Google']"],
+    "searchInput": ["name","q"],
+    "searchButton": ["xpath","//*[@aria-label='Google Search']"],
+    "result": ["xpath","//div[@class='r']/a/h3"]
+  },
+  "loginPage": {
+    "email": ["id","student_email"],
+    "password": ["id","student_password"],
+    "loginButton" : ["xpath","//input[@value='Log in']"]
+  },
+  "dashBoardPage" : {
+    "dashboardUsers" : ["xpath","//a[text()='Users']"],
+    "dashboardCompanies" : ["xpath","//a[text()='Companies']"],
+    "dashBoardProjects" : ["xpath","//a[text()='Projects']"],
+    "dashBoardLogout" : ["xpath","//*[text()='Logout']"]
+  },
+  "usersPage" : {
+    "newUser" : ["xpath","//a[text()='New User']"],
+    "usersFirstName" : ["id","user_first_name"],
+    "usersLastName" : ["id","user_last_name"],
+    "usersEmail" : ["id","user_email"],
+    "usersPhoneNumber" : ["id","user_phone_number"],
+    "usersAddress" : ["id","user_address"],
+    "usersState" : ["id","user_state"],
+    "usersZipCode" : ["id","user_zipcode"],
+    "createUser" : ["xpath","//input[@value='Create User']"],
+    "updateUser" : ["xpath","//input[@value='Update User']"],
+    "editUser" : ["xpath","//a[text()='Edit']"],
+    "deleteUser" : ["xpath","//a[text()='Destroy']"]
+  },
+  "companyPage" : {
+    "newCompany" : ["xpath","//a[text()='New Company']"],
+    "companyName" : ["id","company_name"],
+    "companyEmail" : ["id","company_email"],
+    "companyPhoneNumber" : ["id","company_phone_number"],
+    "companyAddress" : ["id","company_address"],
+    "createCompany" : ["xpath","//input[@value='Create Company']"],
+    "updateCompany" : ["xpath","//input[@value='Update Company']"]
+  }
+}
